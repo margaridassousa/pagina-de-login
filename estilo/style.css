@@ -74,11 +74,11 @@ span ion-icon:nth-child(2) {
     display: none;
 }
 
-span.mostrar ion-icon:nth-child(1) {
+span.mostrar ion-icon:nth-child(2) {
     display: block;
 }
 
-span.mostrar ion-icon:nth-child(2) {
+span.mostrar ion-icon:nth-child(1) {
     display: none;
 }
 
