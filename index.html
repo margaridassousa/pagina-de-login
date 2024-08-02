@@ -8,53 +8,44 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <section class="titulo">
             <h1>Olá!</h1>
             <p class="p-titulo">Bem-vindo de volta, <br> você fez falta!</p>
-        </header>
-        <main>
-            <div class="formulario">
-                <input type="text" name="text" id="itext" placeholder="Digite seu login">
-                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha">
-                <span id="mostrarSenha" class="mostrar">
-                    <ion-icon name="eye-outline"></ion-icon>
-                    <ion-icon name="eye-off-outline"></ion-icon>
-                </span>
-                <a href="#" class="recuperar">Recupere sua senha</a>
+        </section>
+        <section class="formulario">
+            <div class="entrada-dados">
+                <input type="text" name="login" id="ilogin" placeholder="Digite seu login">
+            </div>
+            <div class="entrada-dados">
+                <input type="password" name="senha" id="isenha" placeholder="Digite a sua senha">
+                    <span id="mostrarSenha" class="mostrar">
+                        <ion-icon name="eye-outline"></ion-icon>
+                        <ion-icon name="eye-off-outline"></ion-icon>
+                    </span>
+            </div>
+            <div class="recuperar-senha">
+                <p class="p-senha">Recupere sua senha</p>
+            </div>
+            <div class="botao">
                 <button>Acessar</button>
             </div>
-                <div class="login">
-                    <p class="p-login">Ou continue com</p>
-                    <div class="logos">
-                        <a href="#"><img src="ícones/google-logo.ico" alt="logo google"></a>
-                        <a href="#"><img src="ícones/facebook-logo.ico" alt="logo facebook"></a>
-                        <a href="#"><img src="ícones/x-logo.ico" alt="logo x" id="x"></a>
-                    </div>
-                    <div class="registro">
-                        <p class="p-cadastro">Não é um membro? <a href="#" class="link-rodape">Registre-se agora</a></p>
-                    </div>
-                </div>
-                
-        </main>
+        </section>
+        <section class="login">
+            <div class="acesso">
+                <p class="p-acesso"> Ou continue com</p>
+            </div>
+            <div class="logos">
+                <a href="#"><img src="ícones/google-logo.ico" alt="logo-google"></a>
+                <a href="#"><img src="ícones/facebook-logo.ico" alt="logo-facebook"></a>
+                <a href="#"><img src="ícones/x-logo.ico" alt="logo-x"></a>
+            </div>
+            <div class="cadastro">
+                <p class="p-cadastro">Não é um membro? <a href="#">Registre-se agora</a></p>
+            </div>
+        </section>
     </div>
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
 </body>
 </html>
