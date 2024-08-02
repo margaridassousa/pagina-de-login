@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px) {
+
+    div.container {
+        width: 50vw;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    input {
+        width: 80%;
+        height: 80%;
+    }
+
+    div.cadastro p.p-cadastro {
+        text-align: center;
+    }
+}
